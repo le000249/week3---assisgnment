@@ -1,0 +1,9 @@
+// _tables.scss
+@import 'variables';
+
+table {
+    th {
+        background-color: $primary-color;
+        color: white;
+    }
+}

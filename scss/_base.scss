@@ -1,0 +1,47 @@
+// _base.scss
+
+
+@import 'variables';
+
+
+body {
+    font-family: $font-family; // Assuming $font-family is defined
+    color: $text-color;
+    background-color: $background-color; // This should now work
+}
+
+
+
+
+body {
+    font-family: $font-family;
+    color: $text-color;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $primary-color;
+}
+
+p {
+    line-height: 1.5;
+    margin: 0 0 1rem;
+}
+
+// List Styles
+ul, ol {
+    padding-left: 20px;
+}
+
+// Table Styles
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+}
